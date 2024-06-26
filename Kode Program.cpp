@@ -154,7 +154,6 @@ int main() {
     const int N = 1000;
     int arr[N];
 
-    // Generate random data
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> dis(1, 10000);
